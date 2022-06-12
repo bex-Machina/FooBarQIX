@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Javascript Injection</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="main.js"></script>
+    </head>
+    <body>
+      <h1 class="search-form-header">Foo_Bar_Qix_*</h1>
+      <form class="search-form" autocomplete="off">
+          <input oninput="this.value = this.value.replace(/[^0-9]/g, '').replace(/(\..*?)\..*/g, '$1');" class="search-input" id="query-input" type="text" name="query" />
+          <input class="search-button" type = "button" onclick = "print(document.getElementById('query-input').value)" value = "Submit">  
+      </form>
+      <h3 class="search-query">Output: <span id="query-output" class="query"></span></h3>
+    </body>
+</html>
