@@ -1,7 +1,7 @@
 # FooBarQix
 A function String compute(String) which implements the following rules.
 
-Click [here](https://bex-machina.github.io/Box_Rush/BlockRush/Builds/index.html) to view demo. 
+Click [here](https://bex-machina.github.io/FooBarQix/) to view demo. 
 
 
 Rules
