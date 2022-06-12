@@ -29,7 +29,7 @@ Examples
 - 51 => FooBar
 - 53 => BarFoo
 - 
-# Business request: we must keep a trace of 0 in numbers, each 0 must be replaced by char “*“.
+Business request: we must keep a trace of 0 in numbers, each 0 must be replaced by char “*“.
 
 - 101   => 1*1
 - 303   => FooFoo*Foo
